@@ -32,5 +32,5 @@ int main(int argc, char **argv)
 		write(cli_fd, welstr, sizeof(welstr));
 	}
 
-	return;
+	return 0;
 }
